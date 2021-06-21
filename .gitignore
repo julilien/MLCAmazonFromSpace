@@ -1,0 +1,7 @@
+.idea/
+data/
+.ipynb_checkpoints
+*.pkl
+*.npz
+*.npy
+*.png
