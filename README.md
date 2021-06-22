@@ -8,7 +8,7 @@ This is a simple mutli-label classification implementation on the [Planet: Under
 
 To execute the code, just set-up a Python 3.* environment and execute the following command:
 ```
-pip -r install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Dataset
