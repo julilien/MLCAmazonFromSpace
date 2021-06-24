@@ -82,7 +82,7 @@ def summarize_diagnostics(history, fold_idx):
     # plot accuracy
     pyplot.subplot(212)
     pyplot.title('Fbeta')
-    pyplot.plot(history.history['fbeta'], color='blue', label='train')
+    pyplot.plot(history.history['f_beta'], color='blue', label='train')
     pyplot.plot(history.history['val_fbeta'], color='orange', label='test')
     # save plot to file
     filename = sys.argv[0].split('/')[-1]
